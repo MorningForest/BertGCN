@@ -97,6 +97,8 @@ class PrepareData:
         print(data_bundle.get_dataset('train'))
         return data_bundle, adj, target_vocab
 
+
+
 if __name__ == '__main__':
     import argparse
     arg = argparse.ArgumentParser()
