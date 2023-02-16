@@ -1,6 +1,7 @@
 ## Introduction
 本文使用fastNLP和pytorch复现了近期发表的一篇文本分类论文[BertGCN](https://arxiv.org/abs/2105.05727),
 具体实现过程见[this]()。
+fastnlp的版本是 0.7.1 。 你可以使用```pip install git+https://github.com/fastnlp/fastNLP.git@dev```来安装。
 ## Results
 |Model|MR|R8|R52|ohsumed|20ng|
 |----|----|----|---|---|---|
